@@ -1,0 +1,15 @@
+[2026-11-22 20:49:18] [INFO] Cliente registrado: Cliente [C1] Ana Torres | ana@correo.com | Tel: 3001112233 | Activo
+[2026-11-22 20:49:18] [ERROR] Op 2 rechazada: Correo inválido: 'correo_malo'
+[2026-11-22 20:49:18] [INFO] Cliente registrado: Cliente [C3] Luis Díaz | luis@empresa.co | Tel: 3114445566 | Activo
+[2026-11-22 20:49:18] [INFO] Servicio registrado: Sala [S1] Sala Reuniones 1 | Cap: 10 | Tarifa/h: $60,000.00
+[2026-11-22 20:49:18] [INFO] Servicio registrado: Equipo [S2] Portátiles | Unidades: 5 | Tarifa/h: $20,000.00
+[2026-11-22 20:49:18] [INFO] Servicio registrado: Asesoría [S3] Soporte Python (Backend) | Tarifa/h: $100,000.00
+[2026-11-22 20:49:18] [ERROR] Op 5 rechazada: La tarifa base debe ser mayor que cero.
+[2026-11-22 20:49:18] [INFO] Sobrecarga OK -> int=200380.0, float=135256.5, dict=300570.0
+[2026-11-22 20:49:18] [INFO] Reserva creada: Reserva [R1] | CONFIRMADA | Cliente: Ana Torres | Servicio: Sala Reuniones 1 | Total: $195,370.50
+[2026-11-22 20:49:18] [AUDIT] Intento reserva 'R1' -> EXITOSA
+[2026-11-22 20:49:18] [INFO] Reserva creada: Reserva [R3] | CONFIRMADA | Cliente: Luis Díaz | Servicio: Portátiles | Total: $152,288.80
+[2026-11-22 20:49:18] [AUDIT] Intento reserva 'R3' -> EXITOSA
+[2026-11-22 20:49:18] [ERROR] Op 10 encadenada: Error al calcular total de la reserva 'R4': Descuento inválido: 150.0% | Causa: Descuento inválido: 150.0%
+[2026-11-22 20:49:18] [INFO] Reserva R1 cancelada.
+[2026-11-22 20:49:18] [ERROR] Op 11b rechazada: No se puede confirmar una reserva cancelada.
